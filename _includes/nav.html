@@ -1,0 +1,65 @@
+    <nav class="sidebar-nav">
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} {% if node.sidebar == 'docs' %}docs{% endif %}" href="{{ node.url }}" id="{{ node.title }}">{{ node.title }}</a>
+
+         <!-- Documentation will have a layered sidebar -->
+         {% if node.sidebar == "docs" %}
+
+        <div class="overview docs_{{ node.title }} hidden">
+	<ul id="nav">
+
+            <!-- Sidebar for tutorials -->
+            {% if node.title == "Tutorials" %}
+	    {% assign docbase = site.tutorials %}
+            {% endif %}
+
+            <!-- Sidebar for Documentation -->
+            {% if node.title == "Docs" %}
+	    {% assign docbase = site.entries %}
+            {% endif %}
+
+	    {% assign level-1 = docbase | where: "sectionclass", "h1" | sort: "number"%}
+	    {% for entry in level-1 %}
+	    <li {% if entry.is-parent or forloop.first %} class="{% if entry.is-parent %}parent{% endif %}{% if forloop.first %} current{% endif %}"{% endif %}>
+		<a href="#{{ entry.sectionid }}">{{ entry.title }}</a>
+		{% if entry.is-parent %}
+		    <ul>
+			{% assign level-2 = docbase | where: "parent-id", entry.sectionid | sort: "number" %}
+
+			{% for child in level-2 %}
+			    <li {% if child.is-parent %}class="parent"{% endif %}>
+			        <a href="#{{ child.sectionid }}">{{ child.title }}</a>
+			        {% if child.is-parent %}
+			            <ul>
+			                {% assign level-3 = docbase | where: "parent-id", child.sectionid | sort: "number" %}
+			                {% for grandchild in level-3 %}
+			                <li>
+			                    <a href="#{{ grandchild.sectionid }}">{{ grandchild.title }}</a>
+			                </li>
+			                {% endfor %}
+			            </ul>
+			        {% endif %}
+			    </li>
+			{% endfor %}
+		    </ul>
+		{% endif %}
+	    </li>
+	    {% endfor %}
+	</ul>
+          </div>
+        {% endif %}
+          {% endif %}
+
+        {% endif %}
+      {% endfor %}
+    </nav>
+

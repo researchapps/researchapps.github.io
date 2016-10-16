@@ -1,0 +1,163 @@
+/* Icon Styling */
+
+.fa:hover {
+  color: #F2F2F2;
+  cursor:pointer; 
+}
+
+/* Element Positioning */
+
+.img-center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+    list-style: none
+}
+
+/* Table of Contents */
+
+div#toc ul li {
+    margin-left: 35px;
+    font-size: 90%;
+    list-style: square;
+}
+div#toc ul {
+    background-color: #F7F7F7;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 100%;
+    color: gray;
+}
+
+div#toc ul li ul {
+    padding-left:8px;
+
+}
+
+div#toc ul li ul li::before {
+    content: "–  ";
+}
+
+div#toc >ul::before {
+    content: "Table of Contents";
+    font-weight: 500;
+    color: #555;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:70px;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-left:10px;
+}
+
+
+/* Docs sidebar */
+
+.toggle:hover {
+  cursor: pointer;
+  opacity: .8
+}
+
+@media screen and (min-width: 1001px) {
+    .toggle {
+        display: none
+    }
+}
+
+.overview {
+    height: 100%;
+    overflow-y: auto;
+    transition: .3s all;
+    border-right: 3px solid #F7F7F7
+}
+
+@media screen and (max-width: 1000px) {
+    .overview {
+        left: -320px;
+        transition: .3s all ease;
+        transform: translate(0, 0);
+        z-index: 100
+    }
+    .overview.open {
+        transform: translate(320px, 0)
+    }
+}
+
+.overview .toggle {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 100
+}
+
+.overview ul {
+    list-style: none;
+    counter-reset: nested-counter;
+    padding-left: 0
+}
+
+.overview ul li {
+    counter-increment: nested-counter;
+    font-size: 98%
+}
+
+.overview #nav {
+    width: 100%;
+    box-sizing: border-box
+}
+
+.overview #nav>li a {
+    display: block;
+    padding: 10px 20px;
+    line-height: 1;
+    border-bottom: 1px solid rgba(266, 266, 266, 0.2)
+}
+
+.overview #nav>li a:before {
+    content: counters(nested-counter, ".") " ";
+    font-size: 0
+}
+
+.overview #nav>li a:hover {
+    background: rgba(56, 89, 88, 0.1)
+}
+
+.overview #nav>li li a {
+    padding: 8px 30px
+}
+
+.overview #nav>li li li a {
+    padding: 6px 40px
+}
+
+.overview #nav>li li li li a {
+    padding: 4px 50px
+}
+
+.overview #nav .current>a:before {
+    font-size: 1em
+}
+
+
+.hidden {
+  display: none;
+}
+
+.content a:hover {
+    border-bottom: transparent 1px solid
+}
+
+a:hover {
+    color: #111a1a
+}
+
+.current>a {
+    font-weight: 700
+}

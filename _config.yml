@@ -1,0 +1,45 @@
+# Dependencies
+highlighter:      pygments
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            SRCC
+tagline:          'Stanford Compute'
+description:      'Stanford Research Computing'
+url:              http://srcc.stanford.edu
+baseurl:          /
+
+author:
+  name:           'Vanessa Sochat'
+  url:            https://twitter.com/vsoch
+
+paginate:         5
+gems: [jekyll-paginate, jekyll-gist]
+collections:
+- entries
+- tutorials
+
+# Stuff to ignore
+exclude:
+- playground
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/stanford-rc/stanford-rc.github.io
+
+
+# Social networking, etc
+google_analtics: "UA-85750967-1"
