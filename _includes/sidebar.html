@@ -14,11 +14,15 @@
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">{{ site.description }}<i class="fa fa-search" style='padding-left:10px' id='search-button'></i></p>
     </div>
 
     {% include nav.html %}
+    {% include social_media.html %}
     
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+
+    <div style="padding-top:20px">
+       <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    </div>
   </div>
 </div>

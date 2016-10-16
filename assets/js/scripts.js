@@ -23,4 +23,10 @@ $(document).ready(function(){
         document.location = $(this).closest('a').attr("href");
     })
 
+    // Navigate to link on click
+    $("#search-button").click(function(){
+        document.location = '/pages/search';
+    })
+
+
 });
