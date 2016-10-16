@@ -1,5 +1,5 @@
 # Dependencies
-highlighter:      pygments
+highlighter:      rouge
 
 markdown: kramdown
 kramdown:
@@ -27,8 +27,17 @@ author:
 paginate:         5
 gems: [jekyll-paginate, jekyll-gist]
 collections:
-- entries
-- tutorials
+- docs
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
 
 # Stuff to ignore
 exclude:
@@ -43,3 +52,4 @@ github:
 
 # Social networking, etc
 google_analtics: "UA-85750967-1"
+disqus_shortname: "stanfordrc"

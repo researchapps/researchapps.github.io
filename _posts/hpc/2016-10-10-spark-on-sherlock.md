@@ -1,9 +1,8 @@
 ---
-sectionid: tutorial-spark-on-sherlock
-sectionclass: h2
-parent-id: tutorial-big-data-hadoop
+layout: post
 title: How to use Spark on Sherlock
-number: 4100
+tags: "hpc"
+categories: hpc
 ---
 
 This is early documentation on how to use Apache Spark on Sherlock.

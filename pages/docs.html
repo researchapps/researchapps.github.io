@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Tutorials
+title: Docs
 sidebar: docs
 ---
 
-{% assign entries = site.tutorials | sort: "number" %}
+{% assign entries = site.docs | sort: "number" %}
 {% for entry in entries %}
     {% if entry.title != 'index'%}
         <section id="{{ entry.sectionid }}" class="{{ entry.sectionclass }}">
@@ -25,12 +25,10 @@ sidebar: docs
 
 <!-- Show the navigation -->
 <script>
-var navigation = $(".docs_Tutorials");
+var navigation = $(".docs_Docs");
 if (navigation.hasClass("hidden")) {
-    console.log('revealing!')
     $(navigation).removeClass('hidden');
 } else {
-    console.log('hiding!')
     $(navigation).addClass('hidden');
 }
 </script>

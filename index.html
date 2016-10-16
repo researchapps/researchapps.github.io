@@ -10,38 +10,25 @@ Welcome to the research computing applications portal. Here you can find templat
 <!-- What projects do we have? -->
 <div class="uk-container uk-container-center">
 
-    <!-- Filter Controls -->
-
-    <!-- Web Application -->
+    <!-- Filter Controls 
     <ul class="grid-filter uk-subnav uk-subnav-pill">
-        <li data-uk-filter="" class="uk-active"><a href="">Web</a></li>
-        <li data-uk-filter="web"><a href="">Lab Pages</a></li>
+        <li data-uk-filter="web" class="uk-active"><a href="">Web</a></li>
         <li data-uk-filter="web-docs"><a href="">Docs</a></li>
         <li data-uk-filter="web-apps"><a href="">Applications</a></li>
-     </ul>
-
-    <!-- Environments -->
-     <ul class="grid-filter uk-subnav uk-subnav-pill">
-        <li data-uk-filter="" class="uk-active"><a href="">Environment</a></li>
         <li data-uk-filter="env-docker"><a href="">Docker (Local)</a></li>
         <li data-uk-filter="env-singularity"><a href="">Singularity (HPC)</a></li>
-        <li data-uk-filter="env-virtual"><a href="">Virtual</a></li>
-     </ul>
-
-    <!-- Code -->
-     <ul class="grid-filter uk-subnav uk-subnav-pill">
-        <li data-uk-filter="" class="uk-active"><a href="">Compute</a></li>
+        <li data-uk-filter="hpc"><a href="">HPC</a></li>
         <li data-uk-filter="code-python"><a href="">Python</a></li>
         <li data-uk-filter="code-r"><a href="">R</a></li>
         <li data-uk-filter="code-viz"><a href="">Viz</a></li>
-     </ul>
+     </ul>-->
 
   <!-- Dynamic Grid -->
-  <div id="grid" class="uk-grid uk-width-large-1-1 uk-visible-large" style='margin-top:100px'>
+  <div id="grid" class="uk-grid uk-width-large-1-1 uk-visible-large" style='margin-top:100px;'>
 
   {% for post in paginator.posts %}
     <div data-uk-filter="{{ post.tags }}">
-      <div class="uk-panel uk-panel-box">
+      <div class="uk-panel uk-panel-box" style="min-width:500px; margin-top:20px">
         <p><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p>
         {% if post.image %}
             <a class="post-link" href="{{ post.url }}">

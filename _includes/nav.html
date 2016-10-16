@@ -18,13 +18,8 @@
 	<ul id="nav">
 
             <!-- Sidebar for tutorials -->
-            {% if node.title == "Tutorials" %}
-	    {% assign docbase = site.tutorials %}
-            {% endif %}
-
-            <!-- Sidebar for Documentation -->
             {% if node.title == "Docs" %}
-	    {% assign docbase = site.entries %}
+	    {% assign docbase = site.docs %}
             {% endif %}
 
 	    {% assign level-1 = docbase | where: "sectionclass", "h1" | sort: "number"%}

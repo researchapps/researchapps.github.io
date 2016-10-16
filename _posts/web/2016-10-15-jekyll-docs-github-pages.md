@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Host your docs on Github pages
-tags: "web-docs,env-docker"
+tags: "web-docs,env-docker,web"
+categories: web
 image: "/assets/img/posts/template-jekyll-github.png"
 ---
 
