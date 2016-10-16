@@ -3,6 +3,8 @@ layout: post
 title: How to use Spark on Sherlock
 tags: "hpc"
 categories: hpc
+image: "/assets/img/posts/spark.png"
+snippet: "Learn how to use Apache Spark on Sherlock"
 ---
 
 This is early documentation on how to use Apache Spark on Sherlock.

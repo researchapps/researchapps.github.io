@@ -3,11 +3,15 @@ layout: post
 title: Singularity (containers) on Sherlock
 tags: "hpc,containers,reproducibility"
 categories: reproducibility
+image: "/assets/img/posts/singularity.png"
+snippet: "Have you heard the news? You can run container-based workflows on Sherlock!"
 ---
 
 <p class="message">
 Have you heard the news? Sherlock supports containers!
 </p>
+
+![/assets/img/posts/singularity.png](/assets/img/posts/singularity.png)
 
 Quick start! Here is a <a href="https://github.com/cjprybol/reproducibility-via-singularity" target="_blank">GitHub repo</a> with Singularity demos with an emphasis on reproducibility-via-singularity.
 

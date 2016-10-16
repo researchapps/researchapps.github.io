@@ -3,7 +3,11 @@ layout: post
 title: Tensorflow on Sherlock
 tags: "hpc,machine-learning"
 categories: machine-learning
+snippet: "We have several versions of tensorflow for use on Sherlock."
+image: "/assets/img/posts/tensorflow.png"
 ---
+
+![/assets/img/posts/tensorflow.png](/assets/img/posts/tensorflow.png)
 
 {% include toc.html %}
 

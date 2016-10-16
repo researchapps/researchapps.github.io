@@ -4,6 +4,7 @@ title: Host your docs on Github pages
 tags: "web-docs,env-docker,web"
 categories: web
 image: "/assets/img/posts/template-jekyll-github.png"
+snippet: "Template for lab and code documentation, easily deployed to github pages."
 ---
 
 <p class="message">

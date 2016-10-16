@@ -26,15 +26,18 @@ Welcome to the research computing applications portal. Here you can find templat
   {% include search.html %}
 
   <!-- Dynamic Grid -->
-  <div id="grid" class="uk-grid uk-width-large-1-1 uk-visible-large" style='margin-top:100px;'>
+  <div id="grid" class="uk-grid uk-width-large-1-1 uk-visible-large" style='margin-top:80px;'>
 
   {% for post in paginator.posts %}
     <div data-uk-filter="{{ post.tags }}">
-      <div class="uk-panel uk-panel-box" style="min-width:500px; margin-top:20px">
+      <div class="uk-panel uk-panel-box" style="width:600px; margin-top:20px">
         <p><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p>
+        {% if post.snippet %}
+        <p>{{ post.snippet }}</p>
+        {% endif %}
         {% if post.image %}
             <a class="post-link" href="{{ post.url }}">
-               <img src="{{ post.image }}" width="400px">
+               <img src="{{ post.image }}" width="100%">
             </a>
         {% endif %}
         <span class="post-date">{{ post.date | date_to_string }}</span>
