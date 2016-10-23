@@ -14,7 +14,7 @@ kramdown:
 permalink:        pretty
 
 # Setup
-title:            Rapps
+title:            RAPPS
 tagline:          'Research Applications'
 description:      'Research Applications'
 url:              https://researchapps.github.io
@@ -42,6 +42,7 @@ defaults:
 # Stuff to ignore
 exclude:
 - playground
+- _drafts
 
 # Custom vars
 version:          1.0.0
