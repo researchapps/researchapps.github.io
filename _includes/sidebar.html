@@ -9,12 +9,10 @@
   <div class="container sidebar-sticky">
 
     <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">
+      <p id="home" class="lead" style="font-size:28px;cursor:pointer">
           {{ site.title }}
-        </a>
-      </h1>
-      <p class="lead">{{ site.description }}<i class="fa fa-search" style='padding-left:10px' id='search-button'></i></p>
+      </p>
+      <!--<p class="lead">{{ site.description }}--><i class="fa fa-search" style='padding-left:10px' id='search-button'></i></p>
     </div>
 
     {% include nav.html %}
@@ -26,3 +24,11 @@
     </div>
   </div>
 </div>
+
+<script>
+$(document).ready(function(){
+  $("#home").click(function(){
+    document.location = "{{ site.baseurl }}"
+  })
+})
+</script>

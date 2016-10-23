@@ -14,7 +14,7 @@ kramdown:
 permalink:        pretty
 
 # Setup
-title:            RAPPS
+title:            Research Applications
 tagline:          'Research Applications'
 description:      'Research Applications'
 url:              https://researchapps.github.io
