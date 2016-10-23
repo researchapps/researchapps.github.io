@@ -5,14 +5,13 @@ title: HPC Computing
 number: 1000
 ---
 
-Do you want to learn more about Linux, running jobs on a research cluster with SLURM, or about HPC architecture? You've come to the right place!
+Do you want to learn more about Linux, running jobs on an HPC research cluster, or about web applications? You've come to the right place!
 
 {% include toc.html %}
 
 ## Learning Resources
 
-We are putting together tutorials and templates for researchers at Stanford. [See our progress](/pages/all-tutorials), and please stay tuned for updates.
-
+We are putting together tutorials and templates for researchers, right now manifested as a collection of simple <a href="/pages/applications">application templates</a>. Please stay tuned for updates, and <a href="/support">reach out</a> if you are looking for consulting for a site or application.
 
 ## Linux and Unix 
 
@@ -40,9 +39,21 @@ Read the "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journ
 * [Software carpentry](https://software-carpentry.org/lessons.html) further expouses some of the concepts learned above.
 * A great and accessible intro to using `git` [is here](http://www-cs-students.stanford.edu/~blynn/gitmagic/).
 * [Intro to Programming Course](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6)
+* [Apache Spark Tutorial](http://www.tutorialspoint.com/apache_spark/index.htm)
 
+## Programming GPUs
+* [Introduction to GPU Accelerated Computing with C and C++](https://developer.nvidia.com/how-to-cuda-c-cpp)
+* [NVIDIA Developer Zone](https://devtalk.nvidia.com/)
 
-What in the world is a job scheduler? When you go on a cluster like Sherlock, you will likely want to run an analysis massively in parallel, or perhaps concept to a machine that has significantly more memory than your laptop. To aid with the tasks of getting many users connected to these machines, we have job managers.
+## Machine learning
+
+* [Tensorflow](https://www.tensorflow.org/)
+* [AWS Machine Learning](https://github.com/amznlabs/amazon-dsstne): Deep Scalable Sparse Tensor Network Engine
+* [http://neuralnetworksanddeeplearning.com/chap1.html](Neural Networks Tutorial)
+* [Tensor Flow Neural Network Playground](http://playground.tensorflow.org/#activation=tanh&amp;batchSize=10&amp;dataset=gauss&amp;regDataset=reg-plane&amp;learningRate=0.03&amp;regularizationRate=0&amp;noise=0&amp;networkShape=4,2&amp;seed=0.90975&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=false&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;cosX=false&amp;sinX=false&amp;cosY=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification)
+* [Tensor Flow Libraries on Github](https://github.com/jtoy/awesome-tensorflow/?imm_mid=0e3906&amp;cmp=em-data-na-na-newsltr_20160511)
+
+For both scientific computing and general machine learning, you will likely want to run an analysis massively in parallel, or perhaps concept to a machine that has significantly more memory than your laptop. To aid with the tasks of getting many users connected to these machines, we have job managers.
 
 ## Job Scheduling
 What in the world is a job scheduler? When you go on a cluster like Sherlock, you will likely want to run an analysis massively in parallel, or perhaps concept to a machine that has significantly more memory than your laptop. To aid with the tasks of getting many users connected to these machines, we have job managers.
@@ -65,14 +76,10 @@ What in the world is a job scheduler? When you go on a cluster like Sherlock, yo
 </ul>
 
 ## Clusters Available
-We offer several on and off campus options for Stanford Researchers to do scientific computing. You should consult each of the respective sites for full documentation.
 
-### Sherlock
-
-
-### Farmshare
+### Stanford University
+Stanford offers several on and off campus options for Stanford Researchers to do scientific computing, including <a href="http://sherlock.stanford.edu">Sherlock</a> and <a href="http://farmshare.stanford.edu">Farmshare</a>. You should consult each of the respective sites for full documentation.
 
 
 ### XSEDE
 XSEDE is an "Extreme Science and Engineering Discovery Environment", an amazing resource that offers a set of <a href="https://portal.xsede.org/course-calendar/" target="_blank"> courses</a> to learn about everything from MPI programming to Apache Spark.
-
