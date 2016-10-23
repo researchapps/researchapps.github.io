@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Tutorials
+title: Applications
 ---
 
 {% include toc.html %}
 
-We are working on providing examples and tutorials for using and generating reproducible software and analyses. Stay tuned!
+Explore some of our completed and in-progress applications.
 
-# By Category
 {% for category in site.categories %}
 <h2>{{ category | first }}</h2>
 <ul>
