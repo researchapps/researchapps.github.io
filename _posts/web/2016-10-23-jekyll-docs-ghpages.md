@@ -27,7 +27,7 @@ The RedDocs template is intended for researchers to use to easily deploy lab and
 
 
 ### QuickStart
-Clone, make changes to files in `_entries` and `_config.yml` and push to Github! More specifically:
+Clone, make changes to files in `_docs` and `_config.yml` and push to Github! More specifically:
 
 
 {% highlight bash %}
@@ -54,9 +54,6 @@ Install [Jekyll](https://jekyllrb.com/docs/installation/) and then run with:
 {% highlight bash %}
       jekyll serve
 {% endhighlight %}
-
-### Documentation
-Check out the [demo](https://researchapps.github.io/template-jekyll-docs), and the [repository on Github](https://github.com/researchapps/template-jekyll-docs) for complete documentation. 
 
 
 ### Need help?
