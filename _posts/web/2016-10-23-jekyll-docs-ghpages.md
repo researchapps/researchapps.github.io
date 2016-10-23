@@ -36,7 +36,7 @@ Clone, make changes to files in `_docs` and `_config.yml` and push to Github! Mo
 {% endhighlight %}
 
 
-1. Option 1: Docker
+#### 1. Option 1: Docker
 
 Download [docker](https://docs.docker.com/engine/installation/), download the template to a folder, and run a container:
 
@@ -47,7 +47,7 @@ Download [docker](https://docs.docker.com/engine/installation/), download the te
 Then go to `127.0.0.1:4000/template-jekyll-docs` in your browser to see the site! Make changes, add the files to your github folder (either the `master` branch of your user or organization repo (a repo named in the format `myusername.github.io`) or the `gh-pages` branch of another repo, which will appear at `myusername.github.io/reponame`.
 
 
-2. Option 2: Run Locally
+#### 2. Option 2: Run Locally
 
 Install [Jekyll](https://jekyllrb.com/docs/installation/) and then run with:
 
