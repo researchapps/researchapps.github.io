@@ -1,6 +1,6 @@
-# Stanford Research Computing
+# Research Apps
 
-This is the applications and reproducible environment portal provided by Stanford Research Computing for Stanford University, [stanford-rc.github.io](https://stanford-rc.github.io)
+This is a base for open source applications and reproducible environments maintained by @vsoch in Stanford Research Computing for Stanford University, [researchapps.github.io](https://researchapps.github.io)
 
 ## Contributing Content
 

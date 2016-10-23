@@ -14,10 +14,10 @@ kramdown:
 permalink:        pretty
 
 # Setup
-title:            SRCC
-tagline:          'Stanford Compute'
-description:      'Stanford Research Computing'
-url:              http://srcc.stanford.edu
+title:            Rapps
+tagline:          'Research Applications'
+description:      'Research Applications'
+url:              https://researchapps.github.io
 baseurl:          /
 
 author:
@@ -47,11 +47,11 @@ exclude:
 version:          1.0.0
 
 github:
-  repo:           https://github.com/stanford-rc/stanford-rc.github.io
+  repo:           https://github.com/researchapps/researchapps.github.io
 
 
 # Social networking, etc
 google_analtics: "UA-85750967-1"
 disqus_shortname: "stanfordrc"
 twitter_username: StanfordCompute
-github_username: stanford-rc
+github_username: researchapps
