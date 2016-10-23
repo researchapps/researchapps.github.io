@@ -26,4 +26,5 @@ The primary developer has joined teams with a sibling open source software, <a h
 Please post ideas an issues on the <a href="https://www.github.com/expfactory/issues"> Version 2.0 Repository</a>. We welcome and appreciate all contributions!
 
 ## Papers
-* [http://journal.frontiersin.org/article/10.3389/fpsyg.2016.00610/full](The Experiment Factory: Standardizing Behavioral Experiments | Frontiers)
+
+- [The Experiment Factory: Standardizing Behavioral Experiments, Frontiers](http://journal.frontiersin.org/article/10.3389/fpsyg.2016.00610/full)
