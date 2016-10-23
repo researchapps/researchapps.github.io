@@ -3,7 +3,7 @@ layout: post
 title: Host your docs on Github pages
 tags: "web-docs,env-docker,web"
 categories: web
-image: "/assets/img/posts/template-jekyll-github.png"
+image: "/assets/img/posts/web/template-jekyll-github.png"
 snippet: "Template for lab and code documentation, easily deployed to github pages."
 ---
 
@@ -11,13 +11,13 @@ snippet: "Template for lab and code documentation, easily deployed to github pag
 Template for lab and code documentation
 </p>
 
-![/assets/img/posts/template-jekyll-github.png](/assets/img/posts/template-jekyll-github.png)
+![/assets/img/posts/web/template-jekyll-github.png](/assets/img/posts/web/template-jekyll-github.png)
 
 {% include toc.html %}
 
 ## TLDR
 
-[Stanford Docster](https://stanford-rc.github.io/template-jekyll-github) is a template you can easily customize for your code and lab documentation, and publish on Github pages. You can <a href="https://stanford-rc.github.io/template-jekyll-github" target="_blank">preview</a> the theme, or go directly to <a href="https://github.com/stanford-rc/template-jekyll-github">download</a>.
+[Stanford Docster](https://researchapps.github.io/template-jekyll-github) is a template you can easily customize for your code and lab documentation, and publish on Github pages. You can <a href="https://researchapps.github.io/template-jekyll-github" target="_blank">preview</a> the theme, or go directly to <a href="https://github.com/researchapps/template-jekyll-github">download</a>.
 
 ### Features
 * Nice syntax highlighting
@@ -28,7 +28,7 @@ Clone, make changes to files in `_entries` and `_config.yml` and push to Github!
 
 
 {% highlight bash %}
-      git clone https://github.com/stanford-rc/template-jekyll-github
+      git clone https://github.com/researchapps/template-jekyll-github
       cd template-jekyll-github
 {% endhighlight %}
 
@@ -52,8 +52,8 @@ Install [Jekyll](https://jekyllrb.com/docs/installation/) and then run with:
 {% endhighlight %}
 
 ### Documentation
-Check out the [demo](https://stanford-rc.github.io/template-jekyll-github), and the [repository on Github](https://github.com/stanford-rc/template-jekyll-github) for complete documentation. 
+Check out the [demo](https://researchapps.github.io/template-jekyll-github), and the [repository on Github](https://github.com/researchapps/template-jekyll-github) for complete documentation. 
 
 
 ### Need Help?
-We made this for you, and we want it to fit your needs. If you want to request an improvement, please submit an [issue](https://github.com/stanford-rc/template-jekyll-github/issues). If you need help, please reach out to us.
+We made this for you, and we want it to fit your needs. If you want to request an improvement, please submit an [issue](https://github.com/researchapps/template-jekyll-github/issues). If you need help, please reach out to us.

@@ -3,7 +3,7 @@ layout: post
 title: The Experiment Factory
 tags: "web,experiment,docker"
 categories: experiments
-image: "/assets/img/posts/expfactory.png"
+image: "/assets/img/posts/experiments/expfactory.png"
 snippet: "Reproducible, modularized experiments for behavioral research"
 ---
 
@@ -11,7 +11,7 @@ snippet: "Reproducible, modularized experiments for behavioral research"
 Standardized templates for experimental paradigms
 </p>
 
-![/assets/img/posts/expfactory.png](/assets/img/posts/expfactory.png)
+![/assets/img/posts/experiments/expfactory.png](/assets/img/posts/experiments/expfactory.png)
 
 {% include toc.html %}
 
