@@ -188,7 +188,7 @@ We can now finish the experiment, making sure to press enter until you see a bla
 
 If we look closer, we see that the main portion of the result, the experiment field, is just a json string:
 
-![/assets/img/posts/experiments/expfactory-stanford/mysql-request.png](/assets/img/posts/experiments/expfactory-stanford/mysql-request.png). This means that you can give the read only address to someone else in your lab (RAs, students, etc) and they can use it to connect to the data via their software of choice (Python, R, etc.) and work with the data. Pretty darn neat, right?
+![/assets/img/posts/experiments/expfactory-stanford/result-detail.png](/assets/img/posts/experiments/expfactory-stanford/result-detail.png). This means that you can give the read only address to someone else in your lab (RAs, students, etc) and they can use it to connect to the data via their software of choice (Python, R, etc.) and work with the data. Pretty darn neat, right?
 
 You should be sure to back up your data, and we strongly reccommend adding some <a href="https://uit.stanford.edu/service/web/centralhosting/userauth" target="_blank">user authentication</a> and asking users to log in before completing your experiments.
 
