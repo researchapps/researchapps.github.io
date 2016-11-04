@@ -157,8 +157,10 @@ Now let's move on to deploying our experiment to connect to it!
 ### 5. Upload your files
 You will want to use some flavor of FTP/sFTP to upload your files to AFS. There is <a href="https://uit.stanford.edu/service/afs/file-transfer">very good documentation</a> about options for that. They **don't** have very good documentation if you are using standard Linux, so in this case I am going to use scp.
 
+```bash
 cd /home/vanessa/Desktop
 scp -r /home/vanessa/Desktop/tol username@corn.stanford.edu:/afs/ir.stanford.edu/group/YOURGROUPNAME/cgi-bin
+```
 
 This will move the folder `tol` and the entirety of its contents into `cgi-bin`, meaning there is a folder called `cgi-bin/tol`.
 
@@ -186,7 +188,7 @@ We can now finish the experiment, making sure to press enter until you see a bla
 
 If we look closer, we see that the main portion of the result, the experiment field, is just a json string:
 
-![/assets/img/posts/experiments/expfactory-stanford/result-detail.png](/assets/img/posts/experiments/expfactory-stanford/result-detail.png). This means that you can give the read only address to someone else in your lab (RAs, students, etc) and they can use it to connect to the data via their software of choice (Python, R, etc.) and work with the data. Pretty darn neat, right?
+![/assets/img/posts/experiments/expfactory-stanford/mysql-request.png](/assets/img/posts/experiments/expfactory-stanford/mysql-request.png). This means that you can give the read only address to someone else in your lab (RAs, students, etc) and they can use it to connect to the data via their software of choice (Python, R, etc.) and work with the data. Pretty darn neat, right?
 
 You should be sure to back up your data, and we strongly reccommend adding some <a href="https://uit.stanford.edu/service/web/centralhosting/userauth" target="_blank">user authentication</a> and asking users to log in before completing your experiments.
 
