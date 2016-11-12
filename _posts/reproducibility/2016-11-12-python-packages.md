@@ -262,7 +262,7 @@ Users themselves are like pancake eaters. Some prefer pancakes to be standard, m
 ### Examples
 Others don't want pancakes by the book. They want a chocolate-chip monstrositycake appended with drizzles and bits of fruity, nutty glory. They want you to give it to them, and they want it fast. These modern, on demand users will be very happy to see a folder called `examples` in your repo, where you have a bunch of scripts that show them how to use your package. For example, I might have these examples for my users:
 
- ```bash
+```bash
 pancakes/
     __init__.py
     eating.py
