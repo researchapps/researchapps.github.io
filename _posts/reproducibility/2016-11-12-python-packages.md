@@ -252,6 +252,9 @@ python setup.py install
 ### Testing
 Any changes to your code could break it. You should <a href="http://docs.python-guide.org/en/latest/writing/tests/" target="_blank">write proper tests</a> so that any additions are tested before adding them officially. This means that you also want a continuous integration suite like <a href="travis-ci.org" target="_blank">Travis</a> or <a href="circleci.com" target="_blank">CircleCI</a> to test your code. You should enable the testing to trigger any time a commit or PR (pull request) is issued to master, and integrate with Github to ensure that nothing is merged that has not passed testing.
 
+### Digital Object Identifiers
+A DOI is nice to have if you want to give others something to reference for a version, or in a publication. I would recommend using something like <a href="https://zenodo.org/" target="_blank">Zenodo</a> to link your repo up with a DOI. Each time you <a href="https://help.github.com/articles/about-releases/" target="_blank">create a release</a> for your Github repo, you can associate it with a DOI. This is much quicker, and much more useful, than going through the painful process of peer review, especially for something like a little piece of software that you just want to get out into the open source community.
+
 
 ### Documentation
 Users themselves are like pancake eaters. Some prefer pancakes to be standard, maybe a little dry, and by the book. These kinds of users would really appreciate having documentation, such as with <a href="https://pythonhosted.org/an_example_pypi_project/sphinx.html" target="_blank">sphinx</a>.  For python, my preference is to use Sphinx, built automatically via integrated with <a href="http://read-the-docs.readthedocs.io/en/latest/getting_started.html" target="_blank">Read The Docs</a>.
