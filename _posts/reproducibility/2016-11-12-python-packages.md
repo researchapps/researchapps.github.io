@@ -284,9 +284,8 @@ Code style and formatting is outside of the scope of this post, but be conscious
 def zip_up(file_list,zip_name,output_folder=None):
     '''zip_up will zip up some list of files into a package (.zip)
     :param file_list: a list of files to include in the zip.
-    :param output_folder: the output folder to create the zip in. If not 
+    :param output_folder: the output folder to create the zip in.
     :param zip_name: the name of the zipfile to return.
-    specified, a temporary folder will be given.
     :returns zip_package: the file path to the finished zip
     '''
 ```
