@@ -231,7 +231,7 @@ entry_points.txt      PKG-INFO      SOURCES.txt
 The file called `PKG-INFO` is what we want to <a href="https://pypi.python.org/pypi?%3Aaction=submit_form" target="_blank">submit to pypi</a>. Once you add the package, you should be able to run your `pypi.sh` script to create a new distribution and submit the package. Usually like:
 
 ```bash
-bash pypy.sh
+bash pypi.sh
 ```
 
 And it will find your `~/.pypirc` file with credentials and know what to do! There are other ways to automate publishing to coincide with github pushes, but I prefer to have my Github master branch be a "development" branch, and pypi a production version. You likely want to include instructions for the user to install both in your README.md (or other docs)
