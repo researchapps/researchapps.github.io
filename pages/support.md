@@ -7,10 +7,11 @@ title: Support
   Hey there! How can we help? 
 </p>
 
+
 {% include toc.html %}
 
 ## Get Application Support
-RAPPS offers free consultation and for research applications for HPC clusters, and web or desktop-based tools. You can also email us with questions at <a href="mailto:researchapps@googlegroups.com">researchapps@googlegroups.com</a>. This is a public list that will maximize getting help for your problem, so please do not post any private information. You can also contact <a href="mailto:vsochat@stanford.edu">vsochat@stanford.edu</a> to set up a private consultation.
+We offer free consultation and for research applications for HPC clusters, and web or desktop-based tools. You can also email us with questions at <a href="mailto:researchapps@googlegroups.com">researchapps@googlegroups.com</a>. This is a public list that will maximize getting help for your problem, so please do not post any private information. You can also contact <a href="mailto:vsochat@stanford.edu">vsochat@stanford.edu</a> to set up a private consultation.
 
 ## Where are we located?
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3456898705863!2d-122.17742339999998!3d37.4289376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fa4d4600d1a1d%3A0x183cddbf00d0050f!2sPolya+Hall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1476571431317" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
