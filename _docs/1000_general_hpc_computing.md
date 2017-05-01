@@ -60,10 +60,10 @@ What in the world is a job scheduler? When you go on a cluster like Sherlock, yo
 
 <ul>
 <li>
-    <a href="http://slurm.schedmd.com/tutorials.html" target="_blank">SLURM Scheduler</a> official tutorials.</a>
+    <a href="http://slurm.schedmd.com/tutorials.html" target="_blank">SLURM Scheduler</a> official tutorials.
 </li>
 <li>
-    <a href="https://wikis.utexas.edu/display/CCBB/sge-tutorial" target="_blank">SGE Tutorial</a></a>
+    <a href="https://wikis.utexas.edu/display/CCBB/sge-tutorial" target="_blank">SGE Tutorial</a>
 </li>
 </ul>
 
