@@ -2,7 +2,7 @@
 layout: post
 title: "PEFinder: Container Based Classification of Pulmonary Embolism"
 tags: "python,packages,singularity,docker,containers,pulmonary embolism"
-categories: [clinical,reproducibility]
+categories: clinical
 snippet: "An example clinical application - classification of Pulmonary Embolism from radiology reports using containers"
 image: "/assets/img/posts/clinical/singularity-pefinder/pefinder.png"
 ---

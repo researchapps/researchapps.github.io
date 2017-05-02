@@ -2,7 +2,7 @@
 layout: post
 title: Container Based Reproducible Analysis for SLURM 
 tags: "python,packages,singularity,docker,containers,slurm"
-categories: [reproducibility,physics]
+categories: physics
 snippet: "This recipe will walk through the steps to turn a Python script into a container, and then run on a SLURM cluster"
 image: "/assets/img/posts/physics/singularity-hello-world/automated-build.png"
 ---
