@@ -2,7 +2,7 @@
 layout: post
 title: An Introduction to Python Packages
 tags: "python,packages"
-categories: reproducibility
+categories: tutorial
 snippet: "Want to properly publish your Python code? You should make a package for pypi."
 image: "/assets/img/posts/reproducibility/python-packages/python.png"
 ---
