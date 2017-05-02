@@ -3,9 +3,11 @@ layout: default
 title: Home
 ---
 
-<p class="message" style="padding-bottom:50px">
-Welcome to the open source software research applications portal. Here you can find templates for web applications and lab pages, reproducible environments for on and off of a compute cluster, and software to help with your research.
+<p style="padding-bottom:50px; margin-top:80px">
+<img src="/assets/img/robot.png" style="border-bottom: 5px solid black;">
+Welcome to the open source software research applications portal. If you are new to open source, we recommend that you <a href="https://opensource.guide/" target="_blank">read about best practices</a> first. Here you will find templates for web applications and lab pages, reproducible environments for on and off of a compute cluster, and software to help with your research. Continue reading below, or go straight to the <a href="/pages/applications">applications</a>.
 </p>
+
 
 <!-- What projects do we have? -->
 <div class="uk-container uk-container-center">
@@ -23,10 +25,10 @@ Welcome to the open source software research applications portal. Here you can f
         <li data-uk-filter="code-viz"><a href="">Viz</a></li>
      </ul>-->
 
-  {% include search.html %}
-
   <!-- Dynamic Grid -->
   <div id="grid" class="uk-grid uk-width-large-1-1 uk-visible-large" style='margin-top:80px;'>
+
+
 
   {% for post in paginator.posts %}
     <div data-uk-filter="{{ post.tags }}">

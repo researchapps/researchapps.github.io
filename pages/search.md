@@ -5,7 +5,7 @@ sidebar: exclude
 search: exclude
 ---
 
-<p class="message">
+<p>
   Hey there! How can we help? 
 </p>
 
