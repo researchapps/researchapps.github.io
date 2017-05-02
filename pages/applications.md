@@ -11,7 +11,7 @@ title: Applications
   width: 200px;
   position: relative;
   height: 200px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 20px;
   margin-right: 20px;
   float: left;
