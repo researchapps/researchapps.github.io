@@ -11,7 +11,9 @@ title: Applications
   width: 200px;
   position: relative;
   height: 200px;
-  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   float: left;
   padding:15px;
 
@@ -46,7 +48,7 @@ title: Applications
   border-radius:30px;
   border: none !important;
   float:left;
-  margin:3px;
+  margin:5px;
   padding:5px;
 }
 
