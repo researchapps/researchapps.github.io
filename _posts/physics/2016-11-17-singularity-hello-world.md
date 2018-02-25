@@ -5,6 +5,7 @@ tags: "python,packages,singularity,docker,containers,slurm"
 categories: physics
 snippet: "This recipe will walk through the steps to turn a Python script into a container, and then run on a SLURM cluster"
 image: "/assets/img/posts/physics/singularity-hello-world/automated-build.png"
+editable: containers
 ---
 
 You have a Python script. Actually, maybe you have a few, because you wrote a file with supporting functions, and you are happily churning away on your local machine. You then have a terrible, awful epiphany, and it looks something like this:

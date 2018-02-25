@@ -1,0 +1,30 @@
+<!-- this will parse through the header fields and add a button to open
+     an issue / ask a question on Github. The editable field should be in
+     the post frontend matter, and refer to the label to open the issue for -->
+<style>
+.more {
+    float:right;
+}
+</style>
+<script>
+$(document).ready(function() {
+
+    var divs = $("#h1,h2,h3,h4"); 
+    $.each(divs, function(i,e){
+
+        var did = $(e).attr('id');
+
+        // Edit
+        var link = "{{ site.github.repo }}/tree/master/{{ page.path }}#" + did
+        var button = "<a href='" + link + "' target='_blank'><i class='fa fa-pencil more' title='Edit'></i></a>"
+        $(e).append(button);
+
+        // Issues
+        var link = "{{ site.github.repo }}/issues/new?labels={{ page.editable }}&body=Question on: {{ site.github.repo }}/tree/master/{{ page.path }}%23" + did
+        var button = "<a href='" + link + "' target='_blank'><i class='fa fa-ellipsis-h more' style='margin-right:10px' title='Get Help'></i></a>"
+        $(e).append(button);
+
+
+    })
+});
+</script>
