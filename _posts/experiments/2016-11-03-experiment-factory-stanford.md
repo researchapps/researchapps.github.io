@@ -5,6 +5,7 @@ tags: "web,experiment,docker,mysql"
 categories: experiments
 image: "/assets/img/posts/experiments/expfactory-stanford/tol.png"
 snippet: "Deploying a local experiment with a MySQL database on AFS"
+editable: web
 ---
 
 <p class="message">

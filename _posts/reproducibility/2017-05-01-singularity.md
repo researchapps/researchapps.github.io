@@ -5,6 +5,7 @@ tags: "singularity,containers"
 categories: reproducibility
 snippet: "Reproducible Research Products using Singularity Containers"
 image: "/assets/img/posts/reproducibility/singularity/logo.png"
+editable: containers
 ---
 
 ![/assets/img/posts/reproducibility/singularity/logo.png](/assets/img/posts/reproducibility/singularity/logo.png)

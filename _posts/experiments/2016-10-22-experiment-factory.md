@@ -5,6 +5,7 @@ tags: "web,experiment,docker"
 categories: experiments
 image: "/assets/img/posts/experiments/expfactory.png"
 snippet: "Reproducible, modularized experiments for behavioral research"
+editable: web
 ---
 
 <p class="message">

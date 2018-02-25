@@ -5,6 +5,7 @@ tags: "python,packages"
 categories: python
 snippet: "Want to properly publish your Python code? You should make a package for pypi."
 image: "/assets/img/posts/reproducibility/python-packages/python.png"
+editable: python
 ---
 
 {% include toc.html %}

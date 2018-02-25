@@ -5,6 +5,7 @@ tags: "python,packages,singularity,docker,containers,pulmonary embolism"
 categories: clinical
 snippet: "An example clinical application - classification of Pulmonary Embolism from radiology reports using containers"
 image: "/assets/img/posts/clinical/singularity-pefinder/pefinder.png"
+editable: containers
 ---
 
 The reproducibility crisis does not just impact academia, it's an issue for clinical research applications as well. In 2011 Brian Chapman <a href="http://www.sciencedirect.com/science/article/pii/S1532046411000621" target="_blank">published a rule-based classifier called PEFinder</a> that has become the standard in the field for classification of pulmonary embolism. At Stanford I have been working with a group of radiologists to reproduce this work, and our starting point has been the core software developed by Chapan, including <a href="https://github.com/chapmanbe/pyConTextNLP" target="_blank">pyConTextNLP</a> and <a href="https://github.com/chapmanbe/RadNLP" target="_blank">radnlp</a>. A quick shout out to Chapman for bridging the challenging gap between the clinical and research world, and producing a robust set of Python modules for working with clinical text. The fact that his research practices were very reproducible (providing instructions, robust documentation, and versions of software) made PEFinder an easy, fun, and great first go at container-izing a clinical research tool. And guess what? Take a look at the picture below - we are going to generate the same application and run it with Docker and Singularity containers! Let's go!
