@@ -5,6 +5,7 @@ tags: "web-docs,env-docker,web"
 categories: web
 image: "/assets/img/posts/web/template-jekyll-docs.png"
 snippet: "Template for lab and code documentation, easily deployed to github pages."
+editable: web
 ---
 
 <p class="message">
